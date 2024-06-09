@@ -1,0 +1,45 @@
+body{
+	background-color: lightskyblue;
+	background-image: url(https://www.icegif.com/wp-content/uploads/2023/06/icegif-1044.gif);
+	background-size: 150px;
+	background-repeat: no-repeat ;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+
+}
+ p{
+    font-size: 0,9 in; 
+    color: yellow;
+    background-image: url(https://st4.depositphotos.com/1741969/29457/i/450/depositphotos_294571810-stock-photo-blackground-of-abstract-glitter-lights.jpg);
+    background-size: cover;
+    text-align: center;
+}
+#d1 {
+	width: 500px;
+	height: 500px;
+	background-image: url(https://m.media-amazon.com/images/I/71+17bVYHxL._AC_UF1000,1000_QL80_.jpg);
+	background-size: cover;
+	border: 30px ridge pink;
+}
+#d2 {
+	width: 400px;
+	height: 400px;
+	border: 30px solid;
+	margin: 50px;
+	border-image: linear-gradient(yellow, lightblue) 30;
+	background-image: url(https://i.pinimg.com/736x/58/bd/4f/58bd4fc9ebfccc1f2de419529bbf1a12.jpg);
+
+
+}
+#img1 {
+	width: 800px;
+	border: 30px double lightpink;
+
+}
+#img2 {
+	width: 50%;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	box-shadow: 10px 10px 50px hotpink;
+}

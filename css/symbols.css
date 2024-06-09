@@ -1,0 +1,73 @@
+body{ background-color: lightskyblue; }
+p{ 
+	font-size: 48px;
+	color: navy;
+}
+.p1{
+	color: fuchsia;
+	background-color: purple;
+} 
+.p2{
+	font-family: sans-serif;
+}
+.p3{
+	font-family: Georgia, Times, "Times New Roman",  serif;
+}
+.p4{
+	font-family: "Luida Console", Courier, monospace;
+}
+.p5{
+	font-family: cursive;
+}
+.p6{
+	font-family: fantasy;
+}
+.p7{
+	font-family: "Rubik Maps", system-ui;
+	text-shadow: 2px 2px violet;
+}
+.p8{
+	font-family: "Bad Script", cursive;
+	text-shadow: 2px 2px orange;
+}
+.p9{
+	font-family: "Comfortaa", sans-serif;
+	text-shadow: 2px 2px orange, 4px -4px fuchsia;
+}
+.p10{
+	font-family: "Amatic SC", sans-serif;
+	text-shadow: 2px 10px orange;
+}
+.p11{
+	font-family: "Lobster", sans-serif;
+	text-shadow: 0 0 15px teal;
+}
+.p12{
+	font-weight: 700;
+}
+.p13{
+	font-style: italic;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-style: wavy;
+	text-decoration-color: blue ;
+}
+.p15{
+	text-decoration: underline;
+	text-decoration: unde;
+	text-underline-position: ;
+	text-decoration-style: wavy;
+}
+.s1{
+	font-size: 2em;
+	color: blueviolet;
+	font-family: "Rubik Maps", system-ui;
+	text-shadow: 0 0 5px fuchsia;
+
+}
+.p14{
+	font-family: "Pacifico", cursive;
+}
+.p16{
+  font-family: "Rubik Glitch Pop", system-ui;
+}
