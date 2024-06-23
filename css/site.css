@@ -142,6 +142,7 @@ h1{
 }
 .ci ifrime{
 	float: right;
+	width: 100%;
 }
 @media only screen and (max-width:800px){
 	nav,aside,mine, .ci{

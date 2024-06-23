@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+	<title>Форми</title>
+</head>
+<body>
+<p>Ми вивчаємо роботу з формами</p>
+<form name="form">
+	<label for="name">Введіть ваше ім'я:</label>
+	<input type="text" name="name" value="Enter you name" size="20" maxlength="30"><br>
+    <label for="surname">Введіть ваше призвіще:</label>
+	<input type="text" name="surname" value="Enter you surname" size="30"><br>
+	<input type="text" name="text2" value="Це поле не працює" disabled><br>
+    <input type="text" name="text2" value="Тільки для читання" readonly><br>
+    <label for="password">Ведіть свій пароль</label>
+    <input type="password" name="password" maxlength="30" size="20"><br>
+    <label for="robot">Ти людина?</label>
+    <input type="radio" name="robot" class="box">Так
+    <input type="radio" name="robot" class="box">Ні<br>
+    Яку мову бажаєте вивчити?<br>
+    <input type="checkbox" name="en" class="box">Аглійська
+    <input type="checkbox" name="fr" class="box">Француська
+    <input type="checkbox" name="kr" class="box">Корейська
+    <input type="checkbox" name="sp" class="box">Іспанська<br>
+    <input type="submit" name="submit" value="Submit" class="btn">
+    <input type="reset" name="reset" value="Reset" class="btn">
+    <button type="submit" class="btn">Submit</button>
+    <input type="file" name="file"><br>
+    <textarea cols="20" rows="3" wrap="off"></textarea>
+    <textarea cols="30" rows="5" wrap="virtual"></textarea>
+    <textarea cols="50" rows="7" wrap="physical"></textarea><br>
+    <select name="ln">
+    	<option selected>Аглійська</option>
+    	<option>Француська</option>
+    	<option>Корейська</option>
+    	<option>Іспанська</option>
+
+    </select>
+        <select name="ln1" size="2">
+    	<option>Аглійська</option>
+    	<option selected>Француська</option>
+   	    <option>Корейська</option>
+    	<option>Іспанська</option>
+    	
+    </select> 
+      <select name="ln1" size="2">
+    	<option>Аглійська</option>
+    	<option selected>Француська</option>
+   	    <option>Корейська</option>
+    	<option>Іспанська</option>
+    	
+    </select> 
+
+</form>
+</body>
+</html>

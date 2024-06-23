@@ -1,0 +1,26 @@
+body{
+	background-color: lightblue;
+}
+p{
+	font-size: 50px;
+	background-color: aqua;
+	color: darkviolet;
+
+}
+form{
+	font-size: 24px;
+	color: blueviolet;
+}
+input{
+	font-size: 24px;
+	color: darkviolet;
+}
+.box{
+	width: 20px;
+	height: 20px;
+
+}
+.btn{
+	padding: 5px 3px;
+
+}
