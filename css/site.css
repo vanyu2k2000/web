@@ -1,10 +1,12 @@
+
+body{background-color: lightblue;}
 header{
 	height: 250px;
 	background-color: lightblue;
 }
 nav,aside{
 	width: 20%;
-	background-color: lightgoldenrodyellow;
+	
 	float: left ;
 }
 h2{
@@ -17,7 +19,7 @@ main{
 }
 footer{
 	height: 100%;
-	background-color: lightsalmon;
+	background-color: grey;
 	clear: both;
 }
 article{
@@ -27,7 +29,10 @@ article{
 article p{
 	text-align: justify;
     margin: 5px;
+    font-size: 24px;
+    padding: 10px;
 }
+a{text-decoration: none;}
 #youtube ifrime{
 	display: block;
 	margin: auto;
@@ -78,10 +83,10 @@ h1{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 180px;
+  width: 85%;
   display: block;
   margin-bottom: 20px;
-  margin: 5px;
+  margin-left: 20px;
 }
 
 .button-89:hover,
@@ -136,13 +141,15 @@ h1{
   color: white;
 }
 .ci{
-	width: 33%;
+	width: 30%;
 	display: inline-block;
+	font-size: 24px;
+	padding: 20px;
 
 }
-.ci ifrime{
+.ci iframe{
 	float: right;
-	width: 100%;
+	
 }
 @media only screen and (max-width:800px){
 	nav,aside,mine, .ci{
